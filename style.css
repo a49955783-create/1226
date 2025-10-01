@@ -1,0 +1,21 @@
+body{margin:0;font-family:'Tajawal',sans-serif;background:#0d1117;color:#fff;text-align:center;cursor:none}
+header{padding:1rem;background:#111827;margin-bottom:1rem}h2{margin:0}
+#intro{position:fixed;top:0;left:0;right:0;bottom:0;background:linear-gradient(135deg,#0f172a,#1e293b);
+display:flex;align-items:center;justify-content:center;z-index:9999;animation:fadeOut 4s ease forwards;animation-delay:3s}
+.intro-content{text-align:center;animation:fadeIn 2s ease forwards}.intro-title{font-size:2.5rem;font-weight:bold;margin:0;
+animation:glow 1.5s infinite alternate}.intro-subtitle{font-size:1.2rem;margin-top:10px;color:#9ca3af;animation:pulse 2s infinite}
+.hidden{display:none}@keyframes fadeOut{to{opacity:0;visibility:hidden}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes glow{from{text-shadow:0 0 5px #f87171}to{text-shadow:0 0 20px #ef4444}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+.form-section{margin:20px auto;width:90%;max-width:500px;text-align:right}.form-section label{display:block;margin-top:10px;margin-bottom:5px}
+.form-section input{width:100%;padding:10px;border-radius:6px;border:1px solid #374151;background:#1f2937;color:#fff}
+.error{color:#f87171;font-size:.9rem;margin-top:4px}.results table{margin:20px auto;border-collapse:collapse;width:95%;max-width:900px}
+.results th,.results td{border:1px solid #6b7280;padding:8px;text-align:center}.results tr:nth-child(even){background:#1e293b}
+button{margin:5px;padding:6px 12px;border:none;border-radius:6px;cursor:pointer}.btn-edit{background:#facc15;color:#000}
+.btn-save{background:#22c55e;color:#fff}.btn-delete{background:#ef4444;color:#fff}.btn-main{background:#2563eb;color:#fff}
+.copy-alert{margin:10px auto;padding:10px;background:#1d4ed8;color:#fff;border-radius:8px;width:fit-content}
+.output{margin:20px auto;padding:15px;border:1px solid #6b7280;width:90%;max-width:600px;text-align:right;background:#1f2937;
+border-radius:10px;white-space:pre-line}.section-box{margin:10px 0;padding:10px;border-radius:8px}
+.inService{background:#064e3b}.busy{background:#92400e}.shared{background:#6b21a8}.speed{background:#1e40af}
+.bikes{background:#9a3412}.outService{background:#7f1d1d}#cursor{position:fixed;top:0;left:0;width:20px;height:20px;
+background:radial-gradient(circle,white 20%,red 60%,transparent 70%);border-radius:50%;pointer-events:none;
+transform:translate(-50%,-50%);z-index:10000;box-shadow:0 0 15px red}
