@@ -7,30 +7,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- الانترو -->
   <div id="intro">
     <div class="intro-content">
-      <h1 class="intro-title">🚔 شرطة ريسبكت 🚔</h1>
-      <p class="intro-subtitle">تحديث مركز العمليات</p>
+      <img src="3.png" alt="شعار الشرطة" class="logo-intro">
+      <h1 class="intro-title">تحديث مركز العمليات للشرطة</h1>
     </div>
   </div>
 
+  <!-- المحتوى الرئيسي -->
   <div id="main" class="hidden">
-    <header><h2>تحديث مركز العمليات للشرطة</h2></header>
+    <header>
+      <h2><img src="3.png" alt="شعار" class="logo-header"> تحديث مركز العمليات للشرطة</h2>
+    </header>
 
-    <section class="form-section">
-      <label>اسم العمليات:</label>
-      <input type="text" id="opsName" placeholder="اكتب اسم العمليات">
-      <div id="opsError" class="error"></div>
-
-      <label>كود العمليات:</label>
-      <input type="text" id="opsCode" placeholder="اكتب كود العمليات">
-
-      <label>النائب:</label>
-      <input type="text" id="deputyName" placeholder="اكتب اسم النائب">
-      <div id="deputyError" class="error"></div>
-
-      <label>كود النائب:</label>
-      <input type="text" id="deputyCode" placeholder="اكتب كود النائب">
+    <section class="upload-box">
+      <p>📂 اسحب وأفلت صورة هنا، أو الصقها بـ Ctrl+V أو ارفع من جهازك</p>
+      <input type="file" id="fileInput" accept="image/*">
     </section>
 
     <section class="results">
@@ -50,7 +43,6 @@
     </section>
   </div>
 
-  <div id="cursor"></div>
   <script src="script.js"></script>
 </body>
 </html>
